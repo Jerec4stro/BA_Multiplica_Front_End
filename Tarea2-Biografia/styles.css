@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/background.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ecf0f1;
+}
+
+.can, p{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: #e74c3c;
+}
+
+.biografia, .tituloBio{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: #e74c3c;
+}
+
+.box {
+    height: 50%;
+    width: 50%;
+    margin: 0px auto;
+    font-size: 20px;
+    backdrop-filter: blur(20px);
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5rem 2rem 5rem;
+    letter-spacing: 2px;
+    color: #ecf0f1;
+}
+
+
+
+.f-can  {
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: 2px solid #e74c3c;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.f-can:hover {
+    transform: scale(1.2);
+}
+
+.carrera {
+    background-image: linear-gradient(to bottom,rgba(0 0 0 / .25),rgba(0 0 0 / 1)), url(img/music.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;  
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ecf0f1;
+}
+
+.tituloCarre {
+    padding-top: 10%;
+    margin-left: 5vw;
+    padding-bottom: 5vw;
+    color: #e74c3c;
+}
+
+.boxCarre {
+    font-size: 20px;
+    margin: 0 auto; 
+    border: none;
+    text-align: left;
+    width: 50%;
+    padding: 5vw 5vw 10vw 5vw;
+    display: inline-block;
+    letter-spacing: 2px;
+    color: #ecf0f1;
+}
+
+.flex-container {
+    display: flex;
+    padding: 20px 20px;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 800px;
+    flex-flow: row wrap;
+    background-size: cover;
+    background-color: black;
+}
+
+.caja {
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 300px;
+    line-height: 300px;
+    text-align: center;
+    margin: 5px;
+    overflow:hidden ;
+    
+}
+
+.c1 , a{
+    background-image: url(img/vida.jpg);
+    flex-grow: 5;
+    background-size: cover;
+    border-radius: 50%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.c2 {
+    flex-grow: 5;
+    background-image: url(img/muerte.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.c3 {
+    background-image: url(img/apaycan.jpeg);
+    flex-grow: 5;
+    background-size: cover;
+    border-radius: 50%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.c4 {
+    background-image: url(img/giveme5.jpg);
+    flex-grow: 5;
+    background-size: cover;
+    border-radius: 50%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.c5 {
+    background-image: url(img/canzoo.jpeg);
+    flex-grow: 5;
+    background-size: cover;
+    border-radius: 50%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.c6 {
+    background-image: url(img/accion.jpeg);
+    flex-grow: 5;
+    background-size: cover;
+    border-radius: 50%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.tituloDiscos{
+    background-color: black;
+    padding-left: 5%;
+    padding-top: 5%;
+    color: #e74c3c;
+}
+
+.fallecimiento {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/ripcan.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 10vw 10vw 10vw 10vw;
+    font-size: 20px;
+    width: 0 auto;
+    letter-spacing: 3px;
+    color: white;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #e74c3c;
+    
+}
+
+.c1:hover {
+    transform: scale(1.2);
+    }.c2:hover {
+        transform: scale(1.2);
+        }.c3:hover {
+            transform: scale(1.2);
+            }.c4:hover {
+                transform: scale(1.2);
+                }.c5:hover {
+                    transform: scale(1.2);
+                    }.c6:hover {
+                        transform: scale(1.2);
+                        }
+
+                    
+#neon {
+  animation-name: text-anim;
+  animation-duration: 0.1s;
+  animation-iteration-count: infinite;
+  text-align: center;
+  font-family: arial;
+  color: white;
+  text-shadow: 0 0 5px #ffc936, 0 0 10px #ffc936, 0 0 20px #ffc936,
+    0 0 40px #ffc936;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+@keyframes text-anim {
+  from {
+    text-shadow: 0 0 5px #ffc936, 0 0 10px #ffc936, 0 0 20px #ffc936,
+      0 0 40px #ffc936;
+    color: white;
+  }
+  to {
+    text-shadow: 0 0 5px yellow, 0 0 10px #ffd666, 0 0 20px orange,
+      0 0 100px orange;
+  }
+}
+#whiText {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: arial;
+  font-weight: 250;
+}
+
+#pie {
+    
+    width: 100%;
+    height: 100px;
+
+}
+
+#hombresito {
+    width: 0 auto;
+    height: 100vw;
+    justify-content: center;
+   background-color: black;
+    padding-top: 20%;
+}
+
+button {
+    width: 10vw;
+    height: 10vw;
+    background-color: orange;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-size: 100px;
+    transition: .3s ease all;
+    margin-top: 10vw;
+    justify-content: center;
+    text-align: center;
+    margin-left: 45%;
+}
