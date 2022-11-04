@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body{
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+}
+
+.nav-item a{
+    color: white;
+    
+}
+
+#logo{
+    color: red;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar.active .navbar-brand {
+    color: red;
+}
+
+
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: red;
+    text-decoration: none;
+}
+
+.navbar {
+    transition: all 0.4s;
+
+}
+
+nav {
+    font-family: 'Cinzel', serif;
+    line-height: 1.6;
+}
+
+p {
+    font-family: 'Cinzel', serif;
+    line-height: 2;
+}
+
+p, h5 {
+    color: white;
+    font-family: 'Cinzel', serif;
+
+}
+
+span{
+    color: red;
+}

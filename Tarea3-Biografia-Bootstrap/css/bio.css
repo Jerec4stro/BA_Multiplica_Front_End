@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+body {
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    
+}
+
+#imgperfil {
+    margin-top: 20%;
+    padding-left: 0;
+    
+}
+
+p, h1 {
+    color: white;
+}
+
+#boxtext {
+    padding-top: 10%;
+}
+
+
+.nav-item a{
+    color: white;
+    
+}
+
+#logo{
+    color: red;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar.active .navbar-brand {
+    color: red;
+}
+
+
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: red;
+    text-decoration: none;
+}
+
+.navbar {
+    transition: all 0.4s;
+
+}
+
+nav {
+    font-family: 'Cinzel', serif;
+    line-height: 1.6;
+}
+
+p {
+    font-family: 'Cinzel', serif;
+    line-height: 2;
+}
+
+#rammstein {
+    background-image: url(../img/bk3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 500px;
+    padding-top: 2%;
+    text-align: center;
+    border-radius: 10px;
+        
+}
+
+#rammstein h1 {
+    padding-top: 100px;
+    margin-bottom: 50px;
+    font-family: 'Cinzel', serif;
+}
+
+#rammstein p {
+    color: white;
+    padding-top: 100px;
+}
+
+#solitario{
+    width: 100vw;
+    height: 500px;
+    padding-top: 2%;
+    text-align: center;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(/img/bk4.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#solitario h1 {
+    padding-top: 100px;
+    margin-bottom: 50px;
+    font-family: 'Cinzel', serif;
+}
+
+#Cpersonales {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(/img/bck2.jpg);
+    width: 100vw;
+    height: 500px;
+    padding-top: 2%;
+    text-align: center;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#Cpersonales h1 {
+    padding-top: 100px;
+    margin-bottom: 50px;
+    font-family: 'Cinzel', serif;
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Cinzel', serif;
+    line-height: 1.6;
+}
+
+.hero {
+    min-height: 100vh;
+    position: relative;
+
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+
+.desc{
+    padding-top: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+h1, p{
+    color: white;
+}
+
+
+.nav-item a{
+    color: white;
+    
+}
+
+#logo{
+    color: red;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar.active .navbar-brand {
+    color: red;
+}
+
+
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: red;
+    text-decoration: none;
+}
+
+.navbar {
+    transition: all 0.4s;
+
+}
+
+.container {
+    margin-left: 0;
+}
