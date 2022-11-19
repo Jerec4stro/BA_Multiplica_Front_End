@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+body {
+    background: linear-gradient(45deg,#000428, #004e92);
+    
+}
+
+.container {
+    height: 100vh;
+    width:  100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.calculator{
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+    background-color: #090909;
+
+}
+#display{
+    color: white;
+    margin: 0 10px;
+    height: 100px;
+    width: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+
+}
+
+#clear{
+    background-color: #ffd5d8;
+    color: #fc4554;
+}
+
+.btn-number {
+    background-color: #0d2b42;
+    color: white;
+
+}
+
+.btn-operator {
+    background-color: #1a5876;
+    color: white;
+}
+
+.theme-toggler {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: white;
+    cursor: pointer;
+    z-index: 1;
+    
+}
+.theme-toggler::before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    top:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: #333;
+    z-index: -1;
+}
+
+.theme-toggler .active{
+    color: #333;
+}
+
+.theme-toggler .active::before {
+    background-color: white;
+}
+
+button {
+    height: 60px;
+    width: 60px;
+    border: 0;
+    border-radius: 30px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 200ms ease;
+    
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#equal {
+    height: 130px;
+    background-color: #c1c541;
+    color: white;
+
+}
+
+#backspace{
+    color: white;
+    background-color: #fe5834;
+    
+}
+
+#clear{
+    background-color: #fe5834;
+    color: white;
+}
